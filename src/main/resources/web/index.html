@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="valentine">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="styles/general.css">
+        <script src="script.js" defer></script>
+        <title>OWSB</title>
+    </head>
+
+    <body>
+        <div class="grid-x-2 w-full h-full">
+            <div class="grid-item pt-10 center-container">
+                <img src="images/logo_original.png" alt="OWSB Logo">
+                <h1 class="text-3xl p-4 pb-10 merriweather font-bold">Omega Wholesale Sdn Bhd (OWSB)</h1>
+                <h1 class="text-4xl p-20 text-left kanit font-bold">Automated Purchase Order Management System</h1>
+            </div>
+
+            <div class="grid-item">
+                <div class="panel w-full m-10 p-5 text-center">
+                    <h1 class="text-5xl font-bold text-left p-5 pl-1">Sign In</h1>
+
+                    <form action="#" method="POST">
+                        <div class="mb-4">
+                            <label for="username" class="block text-sm font-medium text-gray-700 p-2 text-left">Username</label>
+                            <input type="text" id="username" name="username" class="input input-primary w-full" required>
+                        </div>
+
+                        <div class="mb-6">
+                            <label for="password" class="block text-sm font-medium text-gray-700 p-2 text-left">Password</label>
+                            <input type="password" id="password" name="password" class="input input-primary w-full" required>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-full mt-4">
+                            Login
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
