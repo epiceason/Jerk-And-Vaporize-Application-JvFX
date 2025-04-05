@@ -29,7 +29,6 @@ public class Main extends Application {
         stage.setTitle("OWSB Automated Purchase Order Management System");
         Image icon = new Image(getClass().getResourceAsStream("/web/images/icon.png"));
         stage.getIcons().add(icon);
-
         stage.show();
     }
 
